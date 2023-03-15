@@ -1,0 +1,46 @@
+ table{
+    margin: 50px auto;
+    margin-left: 50px;
+    margin-right: 20px;
+    float: left;
+    padding: 20px;
+    box-shadow: 0 2px 25px black;
+    background-color: rgb(71, 72, 73);
+}
+ td input{
+    width: 300px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-left: 2px solid olive;
+    background-color: whitesmoke;
+}
+td label{
+    font-size: 20px;
+    text-align: justify;
+}
+td input[name="submit"]
+{
+     width: 300px;
+    text-align: justify;
+}
+
+td input[name="submit1"]{
+    width: 300px;
+    text-align: justify;
+}
+ td input[name="submit"]:hover{
+     background-color: salmon;
+    border-radius: 50px;
+    transition: .5s;
+    cursor: pointer;
+ }
+ 
+ 
+ td input[name="submit1"]:hover{
+    background-color: salmon;
+    border-radius: 50px;
+    transition: .5s;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-payment{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.container-payment form{
+    width: 50%;
+    margin: auto;
+    margin-top: 20%;
+    text-align: justify;
+}
+.container-payment form input{
+    width: 100%;
+    text-align: justify;
+    color: grey;
+    background: rgb(233, 233, 233);
+    padding: 10px 40px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+}
+.container-payment form #card-element{
+    width: 100%;
+    text-align: justify;
+    color: lightgrey;
+    background: whitesmoke;
+    padding: 10px 40px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 50px;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    color: whitesmoke;
+    background: lime;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+button:hover{
+    color: lime;
+    background: whitesmoke;
+    transition: .5s;
+}

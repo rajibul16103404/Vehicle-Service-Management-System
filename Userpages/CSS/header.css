@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: gray;
+    padding: 5px;
+	position: absolute;
+	width: 99.2%;
+	margin-top: -1%;
+}
+.header:hover{
+    background-color: lightslategray;
+    letter-spacing: 15px;
+    transition: 1s;
+}
+.header p:hover{
+    letter-spacing: 15px;
+    color: magenta;
+    transition: 1s;
+    border-left: 10px solid green;
+}
+.header p{
+    font-size: 30px;
+    letter-spacing: 5px;
+    border-left: 10px solid pink;
+    margin: 20px;
+    padding: 20px;
+	width: 300px;
+}
+.header p a{
+    text-decoration: none;
+	color: whitesmoke;
+}
+
+
+.header ul{
+	margin-top:.5%;
+	width:40%;
+	padding: 0;
+	padding-top: 2.8%;
+	padding-bottom: 5.2%;
+	margin-left: 53%;
+	margin-top: -10%;
+	text-align: right;
+}
+a{
+	text-decoration:none;
+	cursoe:pointer;
+}
+.header ul li{
+	
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: black;
+	list-style: none;
+	width:12%;
+	text-align: justify;
+	border: none;
+	float: left;
+	margin: 0px 3px;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid transparent;
+	
+}
+.header ul li:hover{
+	border: 1px solid pink;
+	color: white;
+}
