@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    width: 45%;
+    margin: 10px ;
+    box-shadow: 0px 0px 15px gray;
+    background: transparent;
+    padding: 50px;
+    text-align: left;
+    overflow: hidden;
+    float: left;
+}
+table tr:hover{
+    box-shadow: 0 0 15px lightgreen;
+    transition: 1s;
+}
+table tr th{
+    margin: 20px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: lightgreen;
+    
+}
+table tr td{
+    background: transparent;
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: 2px solid lightgray;
+    font-size: 18px;
+    max-width: 120%;
+}
+table tr td textarea{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background: transparent;
+}
+table tr td input{
+    width: 120%;
+    font-size: 16px;
+    padding: 3px 0px;
+    border: 1px solid hotpink;
+    color: black;
+    border-radius: 0px;
+}
+table tr td button{
+    background-color: red;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 2px auto;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+table tr td button:hover{
+    box-shadow: 0 0 25px red;
+    transition: 1s;
+}
+table tr td .ad{
+    background-color: green;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 2px auto;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+table tr td .ad:hover{
+    box-shadow: 0 0 25px green;
+    transition: 1s;
+}
+.add{
+    width: 48%;
+    float: left;
+    box-sizing: border-box;
+}
+.view{
+    width: 40%;
+    float: left;
+}

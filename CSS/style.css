@@ -1,0 +1,232 @@
+            @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Saira+Condensed&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Orbitron:wght@900&family=Saira+Condensed&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                display: flex;
+                width: 100%;
+                height: 100%;
+                min-height: 100vh;
+                background: linear-gradient(-90deg, black, green, blue, red);
+                background-size: 700% 700%;
+                position: relative;
+                animation: change 7s ease-in-out infinite;
+            }
+            @keyframes change{
+                0%{
+                    background-position: 0% 100%;
+                }
+                20%{
+                    background-position: 20% 80%;
+                }
+                40%{
+                    background-position: 40% 60%;
+                }
+                60%{
+                    background-position: 60% 40%;
+                }
+                80%{
+                    background-position: 80% 20%;
+                }
+                100%{
+                    background-position: 100% 0%;
+                }
+                
+            }
+            .logo{
+                width: 100%;
+                font-family: 'Orbitron', sans-serif;
+                text-align: center;
+                margin-top: 24.2%;
+            }
+            .logo span{
+                font-size: 70px;
+                word-spacing: 50px;
+                animation: animate 2s linear infinite;
+            }
+            .logo span:nth-child(1)
+            {
+                animation-delay:0s;
+            }
+            .logo span:nth-child(2)
+            {
+                animation-delay:0.5s;
+            }
+            .logo span:nth-child(3)
+            {
+                animation-delay:1s;
+            }
+            .logo span:nth-child(4)
+            {
+                animation-delay:1.5s;
+            }
+            @keyframes animate{
+                0%{
+                    color: white;
+                }
+                20%{
+                    color: hotpink;
+                }
+                40%{
+                    color: lightskyblue
+                }
+                60%{
+                    color: mediumaquamarine;
+                }
+                80%{
+                    color: gray;
+                }
+                100%{
+                    color: slateblue;
+                }
+            }
+            .container{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                z-index: 1;
+                font-family: 'Saira Condensed', sans-serif;
+                height:50%;
+                position: absolute;
+            }
+            .container .card{
+                width: 230px;
+                height: 350px;
+                margin: 36px;
+                box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+                border-radius: 15px;
+                background: rgba(255, 255, 255, 0.034);
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+                border-top: 3px solid rgba(255, 255, 255, 0.5);
+                border-right: 3px solid rgba(255, 255, 255, 0.5);
+                backdrop-filter: blur(5px);
+                float: left;
+            }
+            .container .card:hover{
+                box-shadow: 0 0 10px aquamarine;
+                transition: .5s;
+            }
+            .container .card .content{
+                padding: 20px;
+            }
+            .container .card .content h2{
+                padding: 20px;
+                text-align: center;
+                transform: translateY(120px);
+                opacity: 0;
+                transition: 1s;
+            }
+            .container .card:hover .content h2{
+                transform: translateY(-20px);
+                opacity: 1;
+            }
+            .container .card .content h2{
+                position: absolute;
+                top: -20px;
+                right: 5px;
+                font-size: 3.5em;
+                color: rgba(52, 18, 145, 0.5);
+                pointer-events: none;
+            }
+            .container .card .content h3{
+                font-size: 1.8em;
+                color: whitesmoke;
+                z-index: 1;
+                margin-top: 50px;
+            }
+            .container .card .content p{
+                font-size: 1em;
+                color: whitesmoke;
+                z-index: 1;
+            }
+            .container .card .content a{
+                position: relative;
+                display: inline-block;
+                padding: 8px 20px;
+                background: white;
+                color: black;
+                border-radius: 20px;
+                text-decoration: none;
+                font-weight: 800;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+                letter-spacing: 5px;
+                margin-left: 15%;
+                font-weight: bolder;
+                bottom: 10px;
+                position: fixed;
+                font-size: 18px;
+            }
+            .apply{
+                width: 96%;
+                bottom: 20px;
+                box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+                border-radius: 15px;
+                background: rgba(255, 255, 255, 0.034);
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+                backdrop-filter: blur(5px);
+                padding: 20px;
+                bottom: 20px;
+                position: fixed;
+                margin-left: 2%;
+            }
+            .apply form h3 {
+                width: 100%;
+                font-size: 35px;
+                color: whitesmoke;
+                margin: 10px;
+            }
+            .apply form table{
+                margin-left: 2%;
+            }
+            .apply form table tr td{
+                width: 11%;
+                margin: 10px;
+            }
+            .apply form table tr td input,select{
+                font-size: 18px;
+                padding: 10px;
+                border: none;
+                border: 2px solid hotpink;
+                background: transparent;
+                color: black;
+                border-radius: 50px;
+            }
+            .apply form table tr td input:hover{ 
+                background: whitesmoke;
+                transition: .5s;
+            }
+            .apply form table tr td select:hover{ 
+                background: whitesmoke;
+                transition: .5s;
+            }
+            .apply form table tr td input[name='submit']{ 
+                background: transparent;
+                width: 100%;
+                color: rgb(39, 32, 32);
+            }
+            .apply form table tr td input[name='submit1']{ 
+                background: transparent;
+                width: 100%;
+                color: rgb(39, 32, 32);
+            }
+            .apply form table tr td input[name='submit']:hover{ 
+                background: whitesmoke;
+                color: black;
+                border-radius: 10px;
+                transition: .5s;
+                box-shadow: 0 0 20px black
+            }
+            .apply form table tr td input[name='submit1']:hover{ 
+                background: whitesmoke;
+                color: black;
+                border-radius: 10px;
+                transition: .5s;
+                box-shadow: 0 0 20px black;
+            }

@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 52px lightsteelblue;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+.login h1{
+    float: left;
+    margin-top: 5%;
+    margin-right: 40px;
+    margin-bottom: 10%;
+}
+.login table{
+    margin-top: 80px;
+    margin-left: -80px;
+    width: 250px;
+}
+.login td input{
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 200px;
+    border: none;
+    border-left: 2px solid olive;
+    background-color: whitesmoke;
+}
+td input[name="submit"]{
+    width: 220px;
+    text-align: justify;
+}
+.login td input:hover{
+    width: 250px;
+    transition: 3s;
+}
+.login td input[name="submit"]:hover{
+    background-color: salmon;
+    border-radius: 50px;
+    transition: .5s;
+    cursor: pointer;
+}

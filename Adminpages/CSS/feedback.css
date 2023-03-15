@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+}
+.container .userreply{
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+    align-items: left;
+}
+table{
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 0 25px gray;
+    background: lightgray;
+    margin: 50px;
+    padding: 50px;
+    align-items: center;
+}
+table tr td{
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+}
+textarea{
+    font-size: 18px;
+    font-family: serif;
+    background: wheat;
+    border: none;
+    border-radius: 20px 20px 0px 20px;
+    text-align: justify;
+    padding: 10px;
+}
+table tr td:last-child{
+    border-left: 2px solid whitesmoke;
+}
+table tr td input{
+    color: white;
+    background: rgb(51, 99, 99);
+    border-radius: 50px;
+    width: 60%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    border: none;
+}
+input:hover{
+    cursor: pointer;
+    border-radius: 0;
+    color: black;
+    background: whitesmoke;
+    transition: .5s;
+}

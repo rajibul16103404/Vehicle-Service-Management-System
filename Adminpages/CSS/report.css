@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.selectionarea{
+    width: 70%;
+    height: 20%;
+    background-color: rgb(219, 213, 213);
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgb(126, 123, 123);
+    padding: 15px;
+}
+.selectionarea p span{
+    margin-left: -160px;
+}
+.selectionarea .search{
+    font-size: 14px;
+    margin-top: -16px;
+    margin-left: -200px;
+    font-size: 20px;
+    color: teal;
+}
+.selectionarea .from{
+    font-size: 14px;
+    margin-top: -16px;
+    margin-left: 170px;
+    font-size: 20px;
+    color: teal;
+}
+.selectionarea .to{
+    font-size: 14px;
+    margin-left: 190px;
+    font-size: 20px;
+    color: teal;
+}
+.selectionarea input{
+    padding: 11px;
+    padding-right: 20px;
+    width:25%;
+    font-size: 16px;
+    border: none;
+    margin-left: 20%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 15px;
+    cursor: pointer;
+    background: turquoise;
+    color: white;
+
+}
+.selectionarea input[name="submit"]{
+    width: 15%;
+}
+.selectionarea input[name="submit"]:hover{
+    background: aquamarine;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: .5s;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 10px auto;
+    box-shadow: 0px 0px 15px gray;
+    background: transparent;
+    padding: 10px;
+    text-align: left;
+    overflow: hidden;
+    bottom: 20px;
+    margin-left: -20px;
+}
+table tr:hover{
+    box-shadow: 0 0 15px lightgreen;
+    transition: 1s;
+}
+table tr th{
+    padding: 5px;
+    font-size: 15px;
+    background-color: lightgreen;
+    font-weight: bolder;
+}
+table tr td{
+    background: transparent;
+    padding: 15px;
+    margin-top: 20px;
+    border-bottom: 2px solid lightgray;
+    font-size: 14px;
+}

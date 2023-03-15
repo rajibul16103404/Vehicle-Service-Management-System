@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 10px auto;
+    box-shadow: 0px 0px 15px gray;
+    background: transparent;
+    padding: 50px;
+    text-align: left;
+    overflow: hidden;
+}
+table tr:hover{
+    box-shadow: 0 0 15px lightgreen;
+    transition: 1s;
+}
+table tr th{
+    margin: 50px;
+    padding: 20px;
+    font-size: 17px;
+    background-color: lightgreen;
+    
+}
+table tr td{
+    background: transparent;
+    padding: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid lightgray;
+    font-size: 18px;
+}
+table tr td button{
+    background-color: slategray;
+    text-align: center;
+    color: white;
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+table tr td button:hover{
+    box-shadow: 0 0 25px slateblue;
+    transition: 1s;
+}
+table tr td input[name="submit"]{
+    background-color: slategray;
+    text-align: center;
+    color: white;
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+table tr td button:hover{
+    box-shadow: 0 0 25px slateblue;
+    transition: 1s;
+}
+table tr td form{
+    width: 100%;
+}
+table tr td form input{
+    width: 50%;
+    font-size: 16px;
+    padding: 10px;
+    float: left;
+}
+table tr td form input[name="submit"]
+{
+    width: 40%;
+    float: right;
+}

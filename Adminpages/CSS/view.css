@@ -1,0 +1,204 @@
+@media screen
+{
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .organization h1{
+        font-size: 60px;
+        letter-spacing: 35px;
+        color: rgb(77, 75, 75);
+        border: 2px solid rgb(170, 162, 86);
+        border-end-end-radius: 50px;
+        background: lemonchiffon;
+        width: 40%;
+        text-align: center;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+    .organization p{
+        font-size: 19px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        color: rgb(77, 75, 75);
+        width: 40%;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 50px;
+        padding-left: -10px;
+    }
+    .customer{
+        width: 50%;
+        box-sizing: border-box;
+
+    }
+    .customer label{
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: lightslategray;
+        width: 50%;
+    }
+    .customer span{
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: lightslategray;
+        width: 100%;
+        align-items: right;
+    }
+    .customer input{
+        width: 60%;
+        font-size: 18px;
+        letter-spacing: 2px;
+        border: none;
+        background: transparent;
+        color: lightslategray;
+    }
+    .container h3{
+        width: 60%;
+        color: rgb(6, 71, 71);
+        font-size: 45px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    button{
+        width: 20%;
+        color: white;
+        background: skyblue;
+        float: left;
+        padding: 10px;
+        border-radius: 50px;
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+        margin-top: -60px;
+        margin-left: 50%;
+    }
+    button:hover{
+        background: lightpink;
+        color: blue;
+        transition: .5s;
+    }
+    .container table{
+        background: lightgrey;
+        margin-top: 20px;
+        padding: 50px;
+        margin-left: 20px;
+        box-shadow: 0 0 10px rgb(157, 194, 197);
+        border-collapse: collapse;
+        width: 50%;
+        margin: auto;
+        border: 5px solid gray;
+    }
+    .container table tr{
+        background: whitesmoke;
+    }
+    .container table tr td{
+        border-bottom: 2px solid gray;
+        font-size: 18px;
+        margin: 0;
+        padding: 10px;
+        width: 50%;
+    }
+    .container h5{
+        visibility: hidden;
+    }
+}
+@media print
+{
+    body{
+        visibility: hidden;
+    }
+    .container
+    {
+        visibility: visible;
+        margin-left: -100px;
+        padding: 0;
+        margin-top: -50px;
+    }
+    .container h3
+    {
+        visibility: hidden;
+    }
+        .organization h1{
+        font-size: 60px;
+        letter-spacing: 35px;
+        color: rgb(77, 75, 75);
+        border: 2px solid rgb(170, 162, 86);
+        border-end-end-radius: 50px;
+        background: lemonchiffon;
+        width: 65%;
+        text-align: center;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+    .organization p{
+        font-size: 19px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        color: rgb(77, 75, 75);
+        width: 60%;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 50px;
+        padding-left: -10px;
+    }
+    .customer{
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+    .customer label{
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: lightslategray;
+        width: 30%;
+    }
+    .customer span{
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: lightslategray;
+        width: 100%;
+        align-items: right;
+    }
+    .customer input{
+        width: 60%;
+        font-size: 18px;
+        letter-spacing: 2px;
+        border: none;
+        background: transparent;
+        color: lightslategray;
+    }
+    .container table
+    {
+        border: 5px solid lightgrey;
+        margin-top: 20px;
+        padding: 20px;
+        margin-left: 20px;
+        border-collapse: collapse;
+        width: 60%;
+    }
+    .container table tr td
+    {
+        font-size: 17px;
+        padding: 5px;
+        border-bottom: 2px solid lightgray;
+    }
+    .container h5{
+        font-size: 18px;
+        color: lightslategray;
+        letter-spacing: 2px;
+        margin-top: 60px;
+        width: 100%;
+        text-align: right;
+    }
+}
